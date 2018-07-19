@@ -16,10 +16,12 @@
     "eject": "react-scripts eject",
     "electron": "electron .",
     "electron-start": "node src/electron-wait-react",
+    "electron-build": "electron-packager ./ ReactElectron --platform=win32 --arch=x64 --overwrite",
     "react-start": "react-scripts start"
   },
   "devDependencies": {
     "electron": "^2.0.5",
+    "electron-packager": "^12.1.0",
     "foreman": "^3.0.1"
   }
 }
